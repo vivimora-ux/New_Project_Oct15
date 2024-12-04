@@ -1,3 +1,8 @@
+import { dirname, join } from 'node:path'
+import url from 'node:url'
+
+const __dirname = dirname(url.fileURLToPath(import.meta.url))
+
 export const config = {
     //
     // ====================
@@ -54,7 +59,10 @@ export const config = {
         // capabilities for local browser web tests
         browserName: 'chrome', // or "firefox", "microsoftedge", "safari"
         'goog:chromeOptions': {
-            args: ['headless=new', 'disable-gpu']
+            prefs: {
+                'data.default_directory': join(__dirname, '/test', '/data')
+            },
+            //args: ['headless=new', 'disable-gpu']
         }
     }],
 
@@ -189,8 +197,9 @@ export const config = {
      * @param {Array.<String>} specs        List of spec file paths that are to be run
      * @param {object}         browser      instance of created browser/device session
      */
-    // before: function (capabilities, specs) {
-    // },
+    before: function (capabilities, specs) {
+        global.projectRoot = join(__dirname, '/test')
+    },
     /**
      * Runs before a WebdriverIO command gets executed.
      * @param {string} commandName hook command name

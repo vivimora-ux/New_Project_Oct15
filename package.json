@@ -11,6 +11,6 @@
   },
   "scripts": {
     "wdio": "wdio run ./wdio.conf.js",
-    "test:dev": "wdio run ./wdio.conf.js --spec contact.js"
+    "test:dev": "wdio run ./wdio.conf.js --spec upload.js"
   }
 }
