@@ -1,0 +1,6 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","475","Click on Logo button & assert URL","","Tue Dec 24 15:20:22 AST 2024","passed","Tue Dec 24 15:20:22 AST 2024","","Home","",""
+"","1631","Open URL & assert title","","Tue Dec 24 15:20:19 AST 2024","passed","Tue Dec 24 15:20:21 AST 2024","","Home","",""
+"","8950","Fill all the inputs fields, submit form & Assert the success message","","Tue Dec 24 15:20:30 AST 2024","passed","Tue Dec 24 15:20:39 AST 2024","","Contact","",""
+"","5018","Find Element & Get Text","","Tue Dec 24 15:20:22 AST 2024","passed","Tue Dec 24 15:20:27 AST 2024","","Home","",""
+"","1018","Open About Page & assert URL","","Tue Dec 24 15:20:21 AST 2024","passed","Tue Dec 24 15:20:22 AST 2024","","Home","",""

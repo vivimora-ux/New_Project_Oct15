@@ -1,0 +1,25 @@
+Home - Test 
+// Files: home.test.js | home.page.js
+
+    Test Case 1:
+        Open URL home page: https://practice.sdetunicorns.com/
+        Make sure <title> match: Practice E-Commerce Site – SDET Unicorns
+
+    Test Case 2: 
+        Click on About tab
+        Make sure URL opened is https://practice.sdetunicorns.com/about
+
+    Test Case 3: ****** Find Element & Click ****** 
+        Click on logo button  
+        Validate / Assert URL doesn't contain 'about' text
+
+    Test Case 4: Find Element & Get Text
+        Find Heading element & Assert the text
+        Validate 
+
+Nav - Test
+// Files: nav.test.js | nav.page.js
+
+    Test Case 1:
+        Validate NAvigation Menu items. 
+
